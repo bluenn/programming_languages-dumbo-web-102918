@@ -6,7 +6,7 @@ def reformat_languages(languages)
 intermediate = languages.map do |key, value|
    value.each do |name, info|
       reformatted[name] = info
-      reformatted[info][style] = []
+      reformatted[info][:style] = []
      #value[:style].push(intermediate[key])
   end
 end
