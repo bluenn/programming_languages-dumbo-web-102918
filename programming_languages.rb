@@ -1,13 +1,13 @@
 def reformat_languages(languages)
   # your code here
 
-  #reformated = {}
+  reformated = {}
 
 intermediate = languages.map do |key, value|
    value.each do |name, array|
-     value[:style] = []
+      reformatted[name] = array 
      #value[:style].push(intermediate[key])
   end
 end
-intermediate
+reformatted
 end
