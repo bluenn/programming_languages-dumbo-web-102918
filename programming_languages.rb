@@ -11,8 +11,7 @@ intermediate = languages.map do |key, value|
       array.push(key)
      #value[:style].push(intermediate[key])
   end
-
 end
-puts reformatted
+reformatted[:javascript][:style].unshift(:00)
 reformatted
 end
