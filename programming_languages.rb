@@ -9,5 +9,6 @@ intermediate = languages.map do |key, value|
      #value[:style].push(intermediate[key])
   end
 end
+puts reformatted
 reformatted
 end
