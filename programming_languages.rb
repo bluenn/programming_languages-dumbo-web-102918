@@ -1,7 +1,7 @@
 def reformat_languages(languages)
   # your code here
 
-  reformated = {}
+  reformatted = {}
 
 intermediate = languages.map do |key, value|
    value.each do |name, info|
