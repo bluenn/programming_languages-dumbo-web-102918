@@ -6,8 +6,8 @@ def reformat_languages(languages)
 intermediate = languages.map do |key, value|    
    value.each do |name, array|
      value[:style] = []
-     value[:style].push(intermediate[key])
+     #value[:style].push(intermediate[key])
   end
-end     
+end
 intermediate
 end
