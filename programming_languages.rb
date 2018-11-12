@@ -4,7 +4,7 @@ def reformat_languages(languages)
   #reformated = {}
 
 intermediate = languages.map do |key, value|
-    value[:style] = key
+    value[:style] = []
   end
 intermediate
 end
