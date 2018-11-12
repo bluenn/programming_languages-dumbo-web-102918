@@ -3,7 +3,7 @@ def reformat_languages(languages)
 
   #reformated = {}
 
-intermediate = languages.map do |key, value|    
+intermediate = languages.map do |key, value|
    value.each do |name, array|
      value[:style] = []
      #value[:style].push(intermediate[key])
